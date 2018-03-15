@@ -70,7 +70,7 @@ array.collect do |element|
     new_array<< if element == "feet"
     "feet"
   elsif
-    element + s
+    element + "s"
   end
   new_array
 end
