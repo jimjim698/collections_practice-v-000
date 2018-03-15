@@ -64,10 +64,11 @@ end
 
 
 def add_s(array)
-  array.collect do |element|
+array =  array.collect do |element|
     element + "s"
     if element == "feet"
       "feet"
   end
+  array
 end
 end
