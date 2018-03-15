@@ -70,6 +70,6 @@ array.collect do |element|
     if element == "feet"
     new_array<<  "feet"
   end
-  array
+  new_array
 end
 end
