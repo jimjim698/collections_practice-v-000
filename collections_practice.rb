@@ -66,10 +66,10 @@ end
 def add_s(array)
   new_array =[]
 array.collect do |element|
-  new_array<< 
+  new_array<<
     new_array<< if element == "feet"
     "feet"
-  elsif 
+  elsif
     element + s
   end
   new_array
