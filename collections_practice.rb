@@ -49,7 +49,6 @@ tick_tock = array.each do |word|
   end
 
   def find_a(array)
-    new_array = []
   array =  array.select do |element|
       element.start_with?("a")
       end
