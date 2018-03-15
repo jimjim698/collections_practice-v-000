@@ -54,3 +54,10 @@ tick_tock = array.each do |word|
       end
   return array
   end
+
+
+def sum_array(array)
+array.inject do |sum, n| 
+  sum + n
+end
+end
