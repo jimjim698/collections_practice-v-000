@@ -64,10 +64,11 @@ end
 
 
 def add_s(array)
-array =  array.collect do |element|
+  new_array =[]
+array.collect do |element|
     element + "s"
     if element == "feet"
-      "feet"
+    new_array<<  "feet"
   end
   array
 end
